@@ -7,6 +7,14 @@
     {
       "name": "DEJAVU",
       "file": "dejavu.mp3"
+    },
+    {
+      "name": "Créditos",
+      "file": "arnold.mp3"
+    },
+    {
+      "name": "Cazalbé",
+      "file": "cazalbe.mp3"
     }
   ]
 }
