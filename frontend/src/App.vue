@@ -22,7 +22,7 @@ export default {
   },
   data() {
     return {
-      socket: io('localhost:3000'),
+      socket: io('https://jpj-instant.herokuapp.com/'),
       playing: '',
       sounds: { clips: [] }
     }
@@ -31,13 +31,14 @@ export default {
     this.socket.on('playSound', data => {
       this.playSound(data)
     })
-    fetch('/assets/sounds.json')
+    fetch('./assets/sounds.json')
       .then(data => data.json())
       .then(data => this.sounds = data)
   },
   methods: {
     requestSound(data) {
       this.socket.emit('playSound', data)
+      console.log(data)
     },
     playSound(data) {
       if (this.playing == '') {
