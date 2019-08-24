@@ -59,6 +59,10 @@
     {
       "name": "Sad Tururu",
       "file": "sad.mp3"
+    },
+    {
+      "name": "Desligar",
+      "file": "shutdown.mp3"
     }
   ]
 }
