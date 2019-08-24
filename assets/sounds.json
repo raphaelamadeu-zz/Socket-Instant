@@ -55,6 +55,10 @@
     {
       "name": "Vá a merda!",
       "file": "vaamerda.mp3"
+    },
+    {
+      "name": "Sad Tururu",
+      "file": "sadness.mp3"
     }
   ]
 }
