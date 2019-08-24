@@ -63,6 +63,18 @@
     {
       "name": "Desligar",
       "file": "shutdown.mp3"
+    },
+    {
+      "name": "Ligar",
+      "file": "startup.mp3"
+    },
+    {
+      "name": "Ligar com DROGAS",
+      "file": "startup2.mp3"
+    },
+    {
+      "name": "Aw SHIT",
+      "file": "awshit.mp3"
     }
   ]
 }
