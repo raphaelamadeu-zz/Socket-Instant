@@ -53,14 +53,12 @@ export default {
       console.log(data)
     },
     playSound(data) {
-      if (this.playing == '') {
-        this.playing = data;
-        const audio = new Audio('./assets/sounds/' + data);
-        audio.volume = (this.volume / 10);
-        audio.play();
-        audio.onended = () => {
-          this.playing = ''
-        }
+      this.playing = data;
+      const audio = new Audio('./assets/sounds/' + data);
+      audio.volume = (this.volume / 10);
+      audio.play();
+      audio.onended = () => {
+      this.playing = ''
       }
     }
   }
